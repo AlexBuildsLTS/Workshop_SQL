@@ -19,7 +19,7 @@ SELECT MIN(Population) AS MinPopulation FROM city;
 -- 7: Sum the population of all cities with a population below 10000
 SELECT SUM(Population) AS SumPopulation FROM city WHERE Population < 10000;
 
--- 8: Count the cities with the countrycodes MOZ and VNM
+-- 8: Count the cities with the country codes MOZ and VNM
 SELECT COUNT(*) AS CityCount FROM city WHERE CountryCode IN ('MOZ', 'VNM');
 
 -- 9: Get individual count of cities for the countrycodes MOZ and VNM
